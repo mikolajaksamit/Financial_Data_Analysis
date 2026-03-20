@@ -17,19 +17,16 @@ Commodity Channel Index (CCI)
 ✔ Data visualization for better financial insight:
 Decision distribution pie chart
 Time series trends for closing prices
+
 🛠️ Technologies Used
 
 Python for data processing
 Pandas & NumPy for data manipulation
 Matplotlib & Seaborn for visualization
 Statistical methods for correlation and trend analysis
+
 📌 How to Use
 
 Load a financial dataset (CSV format).
 Run the script to preprocess and analyze data.
 Explore visualizations for trend insights.
-🚀 Future Improvements
-
-Implement predictive modeling for price forecasting.
-Add more technical indicators (e.g., RSI, MACD).
-Enhance data visualization with interactive dashboards.
