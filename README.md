@@ -1,10 +1,10 @@
-📈 Financial Market Analysis
+Financial Market Analysis
 
-📝 Project Overview
+Project Overview
 
 This project focuses on financial analysis, utilizing data preprocessing, statistical evaluation, and technical indicators to derive insights into market trends.
 
-📊 Key Features
+Key Features
 
 ✔ Financial data preprocessing (handling missing values, interpolation)
 ✔ Technical indicator analysis:
@@ -18,14 +18,14 @@ Commodity Channel Index (CCI)
 Decision distribution pie chart
 Time series trends for closing prices
 
-🛠️ Technologies Used
+Technologies Used
 
 Python for data processing
 Pandas & NumPy for data manipulation
 Matplotlib & Seaborn for visualization
 Statistical methods for correlation and trend analysis
 
-📌 How to Use
+How to Use
 
 Load a financial dataset (CSV format).
 Run the script to preprocess and analyze data.
