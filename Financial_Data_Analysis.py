@@ -19,8 +19,6 @@ df['Close'] = df['Close'].interpolate()
 df['SMA14'] = df['SMA14'].fillna(df['SMA14'].mean())
 df['SMA50'] = df['SMA50'].fillna(df['SMA50'].mean())
 
-# Catch-all: Filling any remaining missing data with zeros
-
 
 
 correlation_sma14_sma50 = df['SMA14'].corr(df['SMA50'])
@@ -84,6 +82,5 @@ plt.ylabel('Normalized Price')
 plt.grid(True)
 plt.show()
 
-# Final Sanity Check
 print("\n--- Final Dataset Info ---")
 print(df.info())
